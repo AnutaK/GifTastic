@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-color: #D4EFDF;
+}
+
+#gif-view {
+
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.animal {
+
+	margin: 15px;
+}
+
+.animal-button {
+	margin: 5px 10px;
+	min-width: 110px;
+	min-height: 25px;
+	background-color: #EBDEF0;
+	color: #117A65;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.image {
+	border-radius: 25px;
+}
+
+label {
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+
+}
